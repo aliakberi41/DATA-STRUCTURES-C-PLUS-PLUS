@@ -10,7 +10,7 @@ int main(){
    return 0;
 }
 void tower(int n,char src,char aux,char des){
-  if(n==1){
+  if(n>1){
    tower(n-1,src,des,aux);
   tower(1,src,aux,des);
    tower(n-1,aux,src,des);
