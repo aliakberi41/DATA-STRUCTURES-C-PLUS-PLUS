@@ -47,7 +47,7 @@ class Stack{
          return true;
          if((symb=='*' || symb=='/') && (top=='*' || top=='/'))
          return true;
-          if((symb=='+' || symb=='-') && (top=='+' || top=='-'))
+          if((symb=='+' || symb=='-'))
          return true;
          else{
             return false;
