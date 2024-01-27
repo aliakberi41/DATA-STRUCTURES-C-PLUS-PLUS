@@ -22,8 +22,8 @@ void enqueue(int val){
     front=rear=0;
   } else{
     rear=(rear+1)%MAX;
-    items[rear]=val;
-  }
+}
+    items[rear]=val;
 }
 int dequeue(){
 int out=items[front];
